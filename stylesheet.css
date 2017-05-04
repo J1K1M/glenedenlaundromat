@@ -1,0 +1,362 @@
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background: #f0f0f0;
+  font: 14px/20px Arial, San-Serif;
+}
+
+p{
+  word-break: break-all;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+h1 {
+  text-align: center;
+  font-size: 180%;
+  line-height: 120%;
+  padding: 5% 0 2% 0;
+}
+
+h3{
+  line-height: 110%;
+  padding: 5% 0;
+}
+
+nav {
+  float: right;
+}
+header ul {
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+  display: inline-block;
+  padding: 10px;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all ease-in-out 0.5s;
+
+
+}
+
+nav ul a:hover {
+  color: white;
+  border-color: white;
+}
+
+
+img{
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+#logo {
+  float: left;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+aside {
+  float: right;
+  vertical-align: middle;
+  height: auto;
+
+}
+
+section.one-line{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section.service {
+  width: 23%;
+  float: left;
+  margin: 1% 1%;
+  text-align: center;
+}
+
+
+
+section.price {
+  width: 31%;
+  margin: 1% 1%;
+  float: left;
+  text-align: center;
+}
+section.price1 {
+  display: none;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+section.contact {
+  text-align: left;
+  float: left;
+  width: 50%;
+}
+table{
+  margin: 0 auto;
+
+  color: black;
+  font-size: 22px;
+/*  background: url("un.png") no-repeat center;
+  background-size: 100%;*/
+}
+
+
+tr{
+
+}
+td{
+  padding: 20px 60px;
+  text-align: center;
+  width: auto;
+  border-left: 1px solid black;
+border-right: 1px solid black;
+}
+
+td:before {
+  content: "✓ ";
+  color: green;
+}
+
+.cross:before {
+  content: "X ";
+  color: red;
+}
+
+.none:before {
+  content: "";
+}
+table tr:nth-child(odd) {
+
+}
+table tr:nth-child(even) {
+
+}
+
+footer.main-footer {
+  background: #333333;
+  width: 100%;
+  overflow: hidden;
+  opacity: 0.90;
+}
+
+.address-footer{
+  width: 33%;
+  float: left;
+  text-align: left;
+}
+
+.contact-footer{
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.contact-footer a {
+  text-decoration: none;
+  color: white;
+}
+.opening-footer {
+    width: 33%;
+  float: left;
+    text-align: right;
+}
+
+footer {
+  background: #000;
+  width: 100%;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  padding: 1% 0;
+}
+
+#box{
+  margin-top: 60px;
+}
+#main {
+  margin: 0 auto;
+
+  max-width: 1140px;
+
+}
+#menu-icon {
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  background: url(http://www.w3newbie.com/wp-content/uploads/icon.png) center;
+}
+
+#CU {
+  margin: 0 auto;
+}
+
+#opening {
+  text-align: left;
+  padding: 20px 0;
+}
+
+#opening ul {
+  list-style: none;
+}
+
+#opening li {
+  padding: 2% 0 2% 0;
+}
+
+#map {
+  width: 300px;
+}
+
+#dcontact {
+  width: 70%;
+  margin: 0 auto;
+}
+
+section.one-line p {
+  font-size: 32px;
+  line-height: 120%;
+}
+
+
+@media screen and (max-width:478px){
+  body {
+    position: absolute;
+  }
+}
+
+@media screen and (max-width:1338px){
+  td{
+    padding: 15px 45px;
+    text-align: center;
+    width: auto;
+    border: 1px solid black;
+  }
+}
+
+@media screen and (max-width:1110px){
+  table{
+    margin: 0 auto;
+    color: black;
+    font-size: 15px;
+  }
+  td{
+    padding: 10px 28px;
+    text-align: center;
+    width: auto;
+    border: 1px solid black;
+  }
+}
+
+@media screen and (max-width:1040px){
+  aside {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #opening {
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width:750px){
+  header {
+    position: fixed;
+  }
+
+  #menu-icon {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  nav ul, nav:active ul {
+    display: none;
+    position: absolute;
+    padding: 15px;
+    background: black;
+    border: 1px solid #FFF;
+    right: 20px;
+    top: 40px;
+    width: 50%;
+    border-radius: 2px 0 2px 2px;
+  }
+
+nav li{
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+  margin: 0;
+}
+
+nav:hover ul {
+  display: block;
+}
+
+
+
+section.one-line {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+section.one-line p {
+  font-size: 12px;
+
+}
+section.service {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+section.price {
+  float: left;
+  width: 100%;
+  margin: 2% 0 2% 0;
+  padding: 0;
+
+}
+
+section.price1 {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+section.contact {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+}
