@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <meta charset="utf-8"/>
+  <meta  name="viewport" content-"width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+  <title>Glen Eden Laundromat</title>
+  <link rel="water-icon" href="water.ico" />
+</head>
+<body>
+  <header>
+    <a href="#GEL" id="logo">Glen Eden Laundromat</a>
+    <nav>
+        <a href="#" id="menu-icon"></a>
+      <ul>
+        <li><a href="#AU">About Us</a></li>
+        <li><a href="#OS">Our Service</a></li>
+        <li><a href="#OP">Our Price</a></li>
+        <li><a href="#CU">Contact Us</a></li>
+        <li><p id="time"><script>openclosed();</script></p></li>
+      </ul>
+    </nav>
+  </header>
+<div id="box">
+  <section id=main>
+    <img  src="tetes.png" id="GEL">
+  <!--  <img  src="testee.jpg" id="GEL">-->
+  <aside id="opening">
+    <h2><u>Glen Eden Laundromat</u></h2>
+    <ul>
+      <li>Assisted Laundry</li>
+      <li>Dry Cleaning</li>
+      <li>Alteration</li>
+      <li>Ironing</li>
+      <li>Commercial Laundry Services</li>
+    </ul>
+    <h2><u>OPEN 7 DAYS</u></h2></br>
+    <h2>Opening Hours</h2></br>
+    <p>Monday to Saturday 7:30am - 6:00pm</p>
+    <p>Sunday 8:00am - 6:00pm</p>
+  </aside>
+  </section>
+</div>
+<!-- ***************ABOUT US SECTOIN************* -->
+  <section class="one-line">
+    <h1 id="AU">About Us</h1>
+    <p>Welcome to Glen Eden Laundromat, where we provide </br>the best laundry care and service in West Auckland.</br>
+        Open 7 days a week, we offer our services to local customers and </br>  also provide free pick up and delivery for commercial laundry services.</br>
+    Just come in, drop off your laundry, let us know</br> what services you would like and pick it up later, it's that easy.</br></p>
+  </section>
+  <!-- SERVCE SECTION --><h1 id="OS">Our Service</h1>
+  <section class="service">
+    <img src="dcleaning.png" width="150"/>
+    <h1>Wash</h1>
+    <p>Washing your laundry with cold water and high quality laundry powder and softner for those that need it.</p>
+  </section>
+  <section class="service">
+    <img src="dcleaning.png" width="150"/>
+    <h1>Dry</h1>
+    <p>Carefully dry your laundry at high temperature (unless otherwise requested) for the requested amount of time.</p>
+  </section >
+  <section class="service">
+    <img src="dcleaning.png" width="150"/>
+    <h1>Dry Cleaning</h1>
+    <p>Dry cleaning agents, leave your dry cleaning with us and come pick it up when it's ready!</p>
+  </section>
+  <section class="service">
+    <img src="dcleaning.png" width="150"/>
+    <h1>Alteration</h1>
+    <p id="OP">Alteration agents, drop off your clothes that need alteration </p>
+  </section>
+
+  <!-- Price SECTIN -->
+  <h1 id="check">Our Price</h1>
+  <section class="price1">
+
+    <h2>Full Service</h2>
+    <h3>Wash + Dry + Fold</h3>
+    <table >
+      <tr><td>Small (7kg)</td></tr>
+      <tr><td>$14</td></tr>
+      <tr><td>Large (16kg)</td></tr>
+      <tr><td>$24</td></tr>
+      <tr><td>Jumbo (22kg)</td></tr>
+      <tr><td>$33</td></tr>
+    </table>
+  </section>
+
+  <section class="price1">
+
+    <h2>Casual Service</h2>
+    <h3>Wash + Dry</h3>
+    <table>
+      <tr><td>Small (7kg)</td></tr>
+      <tr><td>$12</td></tr>
+      <tr><td>Large (16kg)</td></tr>
+      <tr><td>$20</td></tr>
+      <tr><td>Jumbo (22kg)</td></tr>
+      <tr><td>$27</td></tr>
+    </table>
+  </section>
+
+    <section class="price">
+<!--
+  <table>
+    <tr><td>WASH | DRY | FOLD</td><td>Load Size (Weight)</td><td>WASH | DRY</td></tr>
+    <tr><td>$14</td><td>Small (7kg)</td><td>$12</td></tr>
+    <tr><td>$24</td><td>Large (16kg)</td><td>$20</td></tr>
+    <tr><td>$33</td><td>Jumbo (22kg)</td><td>$27</td></tr>
+
+  </table>
+-->
+  <table>
+    <tr><td colspan="2" class="none">Small (7kg)</td></tr>
+    <tr><td>Wash</td><td>Wash</td></tr>
+    <tr><td>Dry</td><td>Dry</td></tr>
+    <tr><td class="cross">Fold</td><td>Fold</td></tr>
+    <tr><td class="none">$12</td><td class="none">$14</td></tr>
+  </table>
+</section>
+
+<section class="price">
+  <table>
+    <tr><td colspan="2" class="none">Large (16kg)</td></tr>
+    <tr><td>Wash</td><td>Wash</td></tr>
+    <tr><td>Dry</td><td>Dry</td></tr>
+    <tr><td class="cross">Fold</td><td>Fold</td></tr>
+    <tr><td class="none">$20</td><td class="none">$24</td></tr>
+  </table>
+</section>
+<section class="price">
+  <table>
+    <tr><td colspan="2" class="none">Jumbo (22kg)</td></tr>
+    <tr><td>Wash</td><td>Wash</td></tr>
+    <tr><td>Dry</td><td>Dry</td></tr>
+    <tr><td class="cross">Fold</td><td>Fold</td></tr>
+    <tr><td class="none">$27</td><td class="none">$33</td></tr>
+  </table>
+</section>
+  <h1 id="CU">Contact Us</h1>
+<div id="dcontact">
+
+
+
+  <section class="contact">
+
+    <img src="map.png" id="map">
+    <h4><a id="view-larger" href="https://www.google.co.nz/maps/place/Glen+Eden+Laundromat/@-36.9113173,174.653236,17z/data=!4m8!1m2!2m1!1sglen+eden+laundromat!3m4!1s0x0:0xc9c074e4657ff18e!8m2!3d-36.9112124!4d174.6548905"
+    target="_blank">View in Google Maps</a></h4>
+
+  </section>
+  <section class="contact">
+    <h2>Come in and talk to us today</h2></br>
+    <p>
+    <b><u>Physical Address</u></b> </br>115b West Coast Road,</br> Glen Eden, Auckland, </br>New Zealand</br></br>
+    <b><u>Contact Details</u></b></br>Phone Number: (09) 818 1240</br>
+    E-mail:<a href="mailto:glenedenlaundromat@gmail.com">glenedenlaundromat@gmail.com</a></br>
+  </p>
+  </section>
+  </div>
+<!--
+  <footer class="main-footer">
+    <section class="address-footer">
+      <p><u>Address</u></p>
+      <p>Glen Eden Laundromat</p>
+      <p>115b West Coast Road</p>
+      <p>Glen Eden</p>
+      <p>Auckland</p>
+    </section>
+    <section class="contact-footer">
+      <p><u>Contact</u></p>
+      <p>Phone: (09) 818 1240</p>
+      <p>Email: <a href="mailto:glenedenlaundromat@gmail.com">glenedenlaundromat@gmail.com</a> </p>
+    </section>
+    <section class="opening-footer">
+    <p><u>Opening Hours</u></br>
+      Mon-Sat 7:30am - 6:00pm</br>
+      Sun 8:00am - 6:00pm
+    </p>
+  </section>
+
+  </footer>
+-->
+  <footer>
+    <p>&#9400 Copyright - 2017 Glen Eden Laundromat</p>
+  </footer>
+
+
+
+</body>
+</html>
